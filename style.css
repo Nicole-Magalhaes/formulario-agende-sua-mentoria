@@ -6,7 +6,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #E5E5E5;
+    background-color: #efefef;
 }
 
 header h1, 
@@ -14,7 +14,7 @@ legend,
 .first-mentoring h1, 
 .second-mentoring h1, 
 footer {
-    font-family: "Staatliches", sans-serif;
+    font-family: "Staatliches", cursive;
 }
 
 body::before {
@@ -41,13 +41,13 @@ header {
 header h1 {
     color: #ffff;
     font-size: 48px;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 }
 
 header p {
     color: #ffff;
     font-size: 20px;
-    line-height: 26px;
+    line-height: normal;
 }
 
 form {
@@ -187,6 +187,8 @@ footer .button {
     height: 55px;
     border: none;
     border-radius: 20px;
+
+    cursor: pointer;
 
     font-family: "Staatliches", sans-serif;
     font-size: 20px;
